@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+h1{
+  font-style: italic;
+
+}
+
+#headerScrollBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: hidden;
+  width: 100%;
+  top: 0px;
+  height: 10.5%;
+  border: solid #DCDCDC;
+  border-width: thin;
+}
+
+#firstRow{
+  display: flex;
+  flex-direction: row;
+}
+
+#bar{
+  height: 15%;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  flex-direction: row; 
+}
